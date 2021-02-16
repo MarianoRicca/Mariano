@@ -1,0 +1,68 @@
+/********************** General **********************/
+body {
+	font-family: Corbel, Times, Sans-serif;
+}
+
+
+
+
+/************* CSS STRUTTURA PAGINA HEADER *************/
+
+#header {
+background-color: #FF5733;
+padding: 0;
+}
+
+#header a {
+	text-decoration: none;
+	
+}
+
+h1 {
+	font-size: 3em;
+	padding: 15px 0 0 0;
+	margin: 0;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+
+
+}
+
+h2 {
+	font-size: 1,2em;
+	margin: 0;
+	text-align: center;
+	color: white
+	
+}
+
+#nav {
+	background-color: #C70039;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 10px 8px;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+#nav li:hover {
+	background-color: orange;
+}
+/************* CSS STRUTTURA PAGINA CONTENT *************/
+
+#content {
+margin: 30px auto;
+width: 600px
+}
+
+#content h4 {
+	border-bottom: #C70039 solid 3px ;
+}
